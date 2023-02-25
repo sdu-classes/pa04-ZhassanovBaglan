@@ -1,4 +1,4 @@
-public class Animals{
+class Animals{
     public static void main(String[] args){
         Fish d = new Fish();
         d.setName("Somename");
@@ -30,7 +30,7 @@ public class Animals{
     }
 }
 
-class Animal {
+public class Animal {
      int legs;
 
         protected Animal(int legs) {
